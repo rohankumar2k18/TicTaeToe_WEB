@@ -1,0 +1,30 @@
+.cells{
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  font-size: 50px;
+  cursor: pointer;
+  
+  
+
+}
+#parentDiv{
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+
+#heading{
+  font-family: "Permanent Marker", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cellContainer{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+
+}
